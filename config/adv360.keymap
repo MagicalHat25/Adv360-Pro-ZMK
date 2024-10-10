@@ -41,7 +41,7 @@
 &kp TAB    &kp Q      &kp W     &kp F   &kp P   &kp B   &trans                                                                              &trans     &kp J   &kp L   &kp U      &kp Y     &kp SEMICOLON  &kp BSLH
 &kp ESC    &kp A      &kp R     &kp S   &kp T   &kp G   &to 0     &kp LEFT_SHIFT  &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &to 0      &kp M   &kp N   &kp E      &kp I     &kp O          &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C   &kp D   &kp V                             &kp LEFT_ALT          &kp RIGHT_ALT                                  &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
-&mo 3      &kp GRAVE  &kp CAPS  &trans  &mo 2           &kp BSPC  &kp DEL         &kp LEFT_GUI          &kp RIGHT_GUI      &kp ENTER        &kp SPACE          &mo 2   &trans     &kp LBKT  &kp RBKT       &mo 3
+&mo 3      &kp GRAVE  &kp CAPS  &mo 1   &mo 2           &kp BSPC  &kp DEL         &kp LEFT_GUI          &kp RIGHT_GUI      &kp ENTER        &kp SPACE          &mo 2   &trans     &kp LBKT  &kp RBKT       &mo 3
             >;
         };
 
