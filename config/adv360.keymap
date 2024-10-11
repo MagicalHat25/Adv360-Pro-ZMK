@@ -41,27 +41,27 @@
 &kp TAB    &kp Q      &kp W     &kp F   &kp P   &kp B   &trans                                                                              &trans     &kp J   &kp L   &kp U      &kp Y     &kp SEMICOLON  &kp BSLH
 &kp ESC    &kp A      &kp R     &kp S   &kp T   &kp G   &to 0     &kp LEFT_SHIFT  &kp LEFT_CONTROL      &kp RIGHT_CONTROL  &kp RIGHT_SHIFT  &to 0      &kp M   &kp N   &kp E      &kp I     &kp O          &kp SQT
 &kp LSHFT  &kp Z      &kp X     &kp C   &kp D   &kp V                             &kp LEFT_ALT          &kp RIGHT_ALT                                  &kp K   &kp H   &kp COMMA  &kp DOT   &kp FSLH       &kp RSHFT
-&mo 3      &kp GRAVE  &kp CAPS  &mo 1   &mo 2           &kp BSPC  &kp DEL         &kp LEFT_GUI          &kp RIGHT_GUI      &kp ENTER        &kp SPACE          &mo 2   &trans     &kp LBKT  &kp RBKT       &mo 3
+&mo 3      &kp GRAVE  &kp CAPS  &mo 2   &mo 1           &kp BSPC  &kp DEL         &kp LEFT_GUI          &kp RIGHT_GUI      &kp ENTER        &kp SPACE          &mo 1   &mo 2      &kp LBKT  &kp RBKT       &mo 3
             >;
         };
 
-        numpad {
+        symbol {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &trans        &kp SLASH     &kp ASTERISK  &kp MINUS  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans                                      &trans  &trans  &kp N7        &kp N8        &kp N9        &kp PLUS   &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp PLUS   &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans      &trans                  &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp ENTER  &trans
-&trans  &trans  &trans  &trans  &trans          &trans  &trans  &trans      &trans  &trans  &trans          &kp N0        &kp N0        &kp PERIOD    &kp ENTER  &trans
+&trans  &trans             &trans          &trans                &trans                 &trans           &trans                                      &trans  &trans      &trans         &trans        &trans          &trans       &trans
+&trans  &kp LBKT           &kp RBKT        &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp EXCLAMATION  &trans                                      &trans  &kp PIPE    &kp AMPERSAND  &kp HASH      &kp TILDE       &kp GRAVE    &trans
+&trans  &kp SEMICOLON      &kp UNDERSCORE  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp AT_SIGN      &trans  &trans  &trans      &trans  &trans  &trans  &kp DOLLAR  &kp EQUAL      &kp COLON     &kp UNDERSCORE  &kp SQT      &trans
+&trans  &kp DOUBLE_QUOTES  &kp LESS_THAN   &kp GREATER_THAN      &kp MINUS              &kp FSLH                         &trans      &trans                  &kp BSLH    &kp PLUS       &kp ASTERISK  &kp QUESTION    &kp PERCENT  &trans
+&trans  &trans             &trans          &trans                &trans                                  &trans  &trans  &trans      &trans  &trans  &trans              &trans         &trans        &trans          &trans       &trans
             >;
         };
 
         navigate {
             bindings = <
-&trans  &kp F1            &kp F2             &kp F3                &kp F4                 &kp F5             &trans                                      &trans  &kp F6      &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
-&trans  &kp LESS_THAN     &kp GREATER_THAN   &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp SQT            &trans                                      &trans  &trans      &kp HOME        &kp UP_ARROW    &kp PG_UP        &trans   &kp F12
-&trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp DOUBLE_QUOTES  &trans  &trans  &trans      &trans  &trans  &trans  &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
-&trans  &kp LC(Z)         &kp LC(X)          &kp LC(C)             &kp LC(V)              &kp LC(Y)                          &trans      &trans                  &trans      &kp END         &trans          &kp PAGE_DOWN    &trans   &trans
-&trans  &trans            &trans             &trans                &trans                                    &trans  &trans  &trans      &trans  &trans  &trans              &trans          &trans          &trans           &trans   &trans
+&trans  &kp F1        &kp F2     &kp F3          &kp F4     &kp F5      &trans                                      &trans  &kp F6      &kp F7          &kp F8          &kp F9           &kp F10  &kp F11
+&trans  &kp ESCAPE    &kp ENTER  &kp BACKSPACE   &kp SPACE  &kp DELETE  &trans                                      &trans  &kp LC(F)   &kp HOME        &kp UP_ARROW    &kp PG_UP        &trans   &kp F12
+&trans  &kp LEFT_ALT  &kp LCTRL  &kp LEFT_SHIFT  &kp TAB    &kp LC(S)   &trans  &trans  &trans      &trans  &trans  &trans  &kp DELETE  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans   &trans
+&trans  &kp LC(Z)     &kp LC(X)  &kp LC(C)       &kp LC(V)  &kp LC(Y)                   &trans      &trans                  &trans      &kp END         &trans          &kp PAGE_DOWN    &trans   &trans
+&trans  &trans        &trans     &trans          &trans                 &trans  &trans  &trans      &trans  &trans  &trans              &trans          &trans          &trans           &trans   &trans
             >;
         };
 
